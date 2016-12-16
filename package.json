@@ -4,7 +4,7 @@
   "description": "Voice Search",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cd ..; npm run st -- speech/system-test/*.test.js",
     "start": "webpack-dev-server --config webpack.config.js --inline --colors"
   },
   "repository": {
@@ -19,6 +19,7 @@
     "react-dom": "^15.4.1",
     "react-tap-event-plugin": "^2.0.1"
   },
+  
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
@@ -29,5 +30,8 @@
     "transfer-webpack-plugin": "^0.1.4",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "engines": {
+    "node": ">=4.3.2"
   }
 }
