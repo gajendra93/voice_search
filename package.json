@@ -1,4 +1,5 @@
 {
+
   "name": "voice_search",
   "version": "1.0.0",
   "description": "Voice Search",
@@ -29,5 +30,7 @@
     "transfer-webpack-plugin": "^0.1.4",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+
+ 
   }
 }
